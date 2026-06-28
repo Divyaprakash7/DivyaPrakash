@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Divya Prakash Patra — Software Engineer</title>
+<meta name="description" content="Portfolio of Divya Prakash Patra — Software Engineer, MSc Computer Science, building DevOps pipelines, dashboards, and AI-driven cloud research.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="noise"></div>
+
+<header class="nav">
+  <a href="#top" class="nav__brand">DP<span class="dot">.</span></a>
+  <nav class="nav__links">
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <a href="#contact" class="nav__cta">Say hi</a>
+  <button class="nav__burger" id="burger" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about">About</a>
+  <a href="#projects">Projects</a>
+  <a href="#skills">Skills</a>
+  <a href="#experience">Experience</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__grid">
+      <div class="hero__copy">
+        <p class="eyebrow">// Software engineer · Msc computer science 
+          <br>// Jenkins · Docker · Git/GitHub · DevOps · SQL  · PowerBI · CI/CD ·   AI/ML </p>
+        <h1 class="hero__title">
+          Divya<br>
+          <span class="accent-sweep">Prakash ☕︎</span>
+        </h1>
+        <div class="terminal" id="terminal" aria-hidden="true">
+          <div class="terminal__bar">
+            <span class="dotr"></span><span class="dotr"></span><span class="dotr"></span>
+            <span class="terminal__label">~/divya</span>
+          </div>
+          <div class="terminal__body">
+            <span class="prompt">$</span> <span id="typed"></span><span class="cursor">▌</span>
+          </div>
+        </div>
+        <p class="hero__sub">
+          I build, containerize, and ship things — from CI/CD pipelines and Dockerized
+          web apps to Power BI dashboards and ML research on cloud resource optimization.
+          1.8 years at Wipro Technologies. An MSc CS researcher , Ravenshaw University.
+        </p>
+        <div class="hero__actions">
+          <a href="#projects" class="btn btn--primary">View projects</a>
+          <a href="#contact" class="btn btn--ghost">Get in touch</a>
+        </div>
+      </div>
+
+      <div class="hero__panel" aria-hidden="true">
+        <div class="kpi-card kpi-card--1">
+          <span class="kpi-card__label">YEARS OF EXPERIENCE<br>@ Wipro Technologies</span>
+          <span class="kpi-card__value">1.8</span>
+        </div>
+        <div class="kpi-card kpi-card--2">
+          <span class="kpi-card__label">PROJECTS SHIPPED</span>
+          <span class="kpi-card__value">05</span>
+        </div>
+        <div class="kpi-card kpi-card--3">
+          <span class="kpi-card__label">TECHNOLOGIES EXPLORED</span>
+          <span class="kpi-card__value">20+</span>
+        </div>
+        <div class="kpi-card kpi-card--4">
+          <span class="kpi-card__label">STATUS</span>
+          <span class="kpi-card__value kpi-card__value--status">
+            <span class="pulse-dot"></span>Open to work
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-cue" aria-hidden="true">
+      <span>scroll</span>
+      <div class="scroll-line"><div class="scroll-line__fill"></div></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="section-head">
+      <p class="eyebrow">// about</p>
+      <h2>From classroom to console to cloud.</h2>
+    </div>
+    <div class="about__grid">
+      <p class="about__lead">
+        I'm a results-oriented Computer Science postgraduate with hands-on industry
+        experience at Wipro Technologies, where I spent 1.8 years working across
+        Java J2EE, Python, and enterprise-scale delivery pipelines using Devops tools. I like systems
+        that take something messy — patient records, unoptimized cloud resources,
+        a raw Dockerfile — and turn them into something structured, visual, and useful.
+      </p>
+      <div class="about__facts">
+        <div class="fact">
+          <span class="fact__num">01</span>
+          <p>Recently, Completed an <strong>MSc in Computer Science</strong> at Ravenshaw
+            University (2024–2026), researching AI-driven cloud resource management.</p>
+        </div>
+        <div class="fact">
+          <span class="fact__num">02</span>
+          <p>Comfortable across the stack: <strong>C, Java, Python, SQL</strong>, with
+            working exposure to DevOps tooling, CI/CD, and containerization.</p>
+        </div>
+        <div class="fact">
+          <span class="fact__num">03</span>
+          <p>Equal parts builder and communicator — strong documentation and reporting
+            habits from Microsoft Office, plus a recognised history of leadership in
+            college activities.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects" id="projects">
+    <div class="section-head">
+      <p class="eyebrow">// projects</p>
+      <h2>Things I've shipped &amp; studied.</h2>
+    </div>
+
+    <div class="project-grid">
+
+      <article class="project-card project-card--blue">
+        <div class="project-card__top">
+          <span class="project-card__tag">DevOps</span>
+          <span class="project-card__date">2026</span>
+        </div>
+        <h3>CI/CD Pipeline — A DevOps Project</h3>
+        <p>Set up a continuous integration and delivery pipeline to understand how code
+          moves from commit to deployment in a real engineering workflow — automating
+          the steps that used to be manual.</p>
+        <div class="chip-row">
+          <span class="chip">CI/CD</span><span class="chip">DevOps</span><span class="chip">Automation</span>
+        </div>
+      </article>
+
+      <article class="project-card project-card--blue">
+        <div class="project-card__top">
+          <span class="project-card__tag">Docker</span>
+          <span class="project-card__date">2026</span>
+        </div>
+        <h3>Containerizing a Web Application Using Docker</h3>
+        <p>Built and deployed a fully containerized web app — designed a custom
+          webpage from scratch, wrote the Dockerfile, built the image, and ran it as
+          a portable, reproducible container with proper port mapping.</p>
+        <div class="chip-row">
+          <span class="chip">HTML/CSS</span><span class="chip">Docker</span><span class="chip">DockerHub</span><span class="chip">Linux</span>
+        </div>
+      </article>
+
+      <article class="project-card project-card--amber">
+        <div class="project-card__top">
+          <span class="project-card__tag">Power BI</span>
+          <span class="project-card__date">2026</span>
+        </div>
+        <h3>Laptop Data Analysis Dashboard</h3>
+        <p>A "best laptop for you" decision dashboard — modeled and visualized laptop
+          specs and pricing data to help surface the best options for different
+          buyer needs.</p>
+        <div class="chip-row">
+          <span class="chip">Power BI</span><span class="chip">Data Analysis</span>
+        </div>
+      </article>
+
+      <article class="project-card project-card--amber">
+        <div class="project-card__top">
+          <span class="project-card__tag">Power BI · Healthcare</span>
+          <span class="project-card__date">2026</span>
+        </div>
+        <h3>Sweet Spot — Diabetics Analysis Dashboard</h3>
+        <p>An end-to-end healthcare analytics dashboard surfacing diabetic risk
+          patterns across a patient cohort — KPI cards for glucose, BMI, insulin,
+          and blood pressure, plus a donut chart, gauge, and interactive slicers
+          built on real data modeling and DAX measures.</p>
+        <div class="chip-row">
+          <span class="chip">Power BI</span><span class="chip">DAX</span><span class="chip">SQL</span><span class="chip">Data Analysis</span>
+        </div>
+      </article>
+
+      <article class="project-card project-card--violet project-card--wide">
+        <div class="project-card__top">
+          <span class="project-card__tag">Research · Dissertation</span>
+          <span class="project-card__date">2024 – 2026</span>
+        </div>
+        <h3>AI-Driven Cloud Resource Management</h3>
+        <p>My MSc dissertation at Ravenshaw University. Cloud environments run on a
+          pay-as-you-go model, so efficient resource allocation directly affects cost
+          and performance. This research investigates how AI and ML techniques —
+          SVM, Random Forest, CNNs, RNNs, Genetic Algorithms, and Particle Swarm
+          Optimization — can be applied to optimize CPU, GPU, and VM allocation in
+          enterprise cloud systems.</p>
+        <div class="chip-row">
+          <span class="chip">SVM</span><span class="chip">Random Forest</span><span class="chip">CNN</span><span class="chip">RNN</span><span class="chip">Genetic Algorithms</span><span class="chip">PSO</span>
+        </div>
+      </article>
+
+      <article class="project-card project-card--green">
+        <div class="project-card__top">
+          <span class="project-card__tag">Web App</span>
+          <span class="project-card__date">2026</span>
+        </div>
+        <h3>BMI Calculator</h3>
+        <p>A responsive Body Mass Index calculator built from scratch with vanilla
+          HTML, CSS, and JavaScript — supports metric and imperial units, a visual
+          BMI scale, and a personalized healthy weight range based on your height.</p>
+        <div class="chip-row">
+          <span class="chip">HTML5</span><span class="chip">CSS</span><span class="chip">JavaScript</span>
+        </div>
+        <a href="https://github.com/Divyaprakash7/BMI" target="_blank" rel="noopener" class="project-card__link">
+          View on GitHub →
+        </a>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills" id="skills">
+    <div class="section-head">
+      <p class="eyebrow">// skills</p>
+      <h2>The toolbox.</h2>
+    </div>
+    <div class="skills__grid">
+      <div class="skill-block">
+        <h3>Languages</h3>
+        <div class="chip-row">
+          <span class="chip chip--lg">C</span>
+          <span class="chip chip--lg">Java</span>
+          <span class="chip chip--lg">Python</span>
+          <span class="chip chip--lg">SQL</span>
+          <span class="chip chip--lg">HTML</span>
+          <span class="chip chip--lg">CSS</span>
+        </div>
+      </div>
+      <div class="skill-block">
+        <h3>Technologies &amp; Domains</h3>
+        <div class="chip-row">
+          <span class="chip chip--lg">Cloud Computing</span>
+          <span class="chip chip--lg">Machine Learning</span>
+          <span class="chip chip--lg">Generative AI</span>
+          <span class="chip chip--lg">DevOps</span>
+          <span class="chip chip--lg">Computer Networks &amp; Security</span>
+          <span class="chip chip--lg">Computer Graphics</span>
+          <span class="chip chip--lg">Data Structures</span>
+          <span class="chip chip--lg">Computer Architecture</span>
+          <span class="chip chip--lg">Wireless Sensor Networks</span>
+        </div>
+      </div>
+      <div class="skill-block">
+        <h3>Tools &amp; Platforms</h3>
+        <div class="chip-row">
+          <span class="chip chip--lg">Docker</span>
+          <span class="chip chip--lg">Power BI</span>
+          <span class="chip chip--lg">Microsoft Word</span>
+          <span class="chip chip--lg">Excel</span>
+          <span class="chip chip--lg">PowerPoint</span>
+          <span class="chip chip--lg">Canva</span>
+        </div>
+      </div>
+      <div class="skill-block">
+        <h3>Operating Systems</h3>
+        <div class="chip-row">
+          <span class="chip chip--lg">Windows</span>
+          <span class="chip chip--lg">Linux</span>
+        </div>
+      </div>
+      <div class="skill-block">
+        <h3>Languages spoken</h3>
+        <div class="chip-row">
+          <span class="chip chip--lg">English</span>
+          <span class="chip chip--lg">Hindi</span>
+          <span class="chip chip--lg">Odia</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE / EDUCATION -->
+  <section class="timeline" id="experience">
+    <div class="section-head">
+      <p class="eyebrow">// experience &amp; education</p>
+      <h2>How I got here.</h2>
+    </div>
+
+    <div class="timeline__track">
+
+      <div class="t-item">
+        <div class="t-item__dot t-item__dot--blue"></div>
+        <div class="t-item__content">
+           <span class="t-item__date">2024 – 2026</span>
+          <h3>MSc, Computer Science · Ravenshaw University</h3>
+          <p>Percentage: 78.6%. Dissertation on AI-driven cloud resource management.</p>
+
+        </div>
+      </div>
+
+      <div class="t-item">
+        <div class="t-item__dot t-item__dot--violet"></div>
+        <div class="t-item__content">
+           <span class="t-item__date">Apr 2022 – Dec 2023</span>
+          <h3>Scholar Trainee · Wipro Technologies</h3>
+          <ul>
+            <li>Gained hands-on industry experience in software development and enterprise-level workflows over a 20-month training period.</li>
+            <li>Applied Java J2EE and Python to contribute to development tasks within a professional engineering environment.</li>
+            <li>Worked with DevOps principles and tools to support delivery and deployment pipelines; learned CI/CD pipelines.</li>
+            <li>Collaborated with cross-functional teams, demonstrating adaptability and eagerness to learn emerging technologies.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="t-item">
+        <div class="t-item__dot t-item__dot--amber"></div>
+        <div class="t-item__content">
+          <span class="t-item__date">2019 – 2022</span>
+          <h3>BSc, Information Science &amp; Telecommunication · Ravenshaw University</h3>
+          <p>Percentage: 77.7%.</p>
+        </div>
+      </div>
+
+      <div class="t-item">
+        <div class="t-item__dot t-item__dot--green"></div>
+        <div class="t-item__content">
+          <span class="t-item__date">2019</span>
+          <h3>12th Science · Christ Higher Secondary School, Cuttack</h3>
+          <p>Council of Higher Secondary Education.</p>
+        </div>
+      </div>
+
+      <div class="t-item">
+        <div class="t-item__dot t-item__dot--blue"></div>
+        <div class="t-item__content">
+          <span class="t-item__date">2017</span>
+          <h3>10th · Saraswati Vidya Mandir, Gatiroutpatna, Cuttack</h3>
+          <p>Board of Secondary Education.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="contact__card">
+      <p class="eyebrow">// contact</p>
+      <h2>Let's build something.</h2>
+      <p class="contact__sub">Open to software engineering roles — happy to talk DevOps,Data Analysis,
+        dashboards, AI, or just trade notes on cloud systems.</p>
+
+      <div class="contact__grid">
+        <a class="contact__item" href="mailto:divyaprakashpatra7@gmail.com">
+          <span class="contact__label">Email</span>
+          <span class="contact__value">divyaprakashpatra7@gmail.com</span>
+        </a>
+        <a class="contact__item" href="tel:+917750977824">
+          <span class="contact__label">Phone</span>
+          <span class="contact__value">+91 77509 77824</span>
+        </a>
+        <a class="contact__item" href="https://www.linkedin.com/in/divya-prakash-241991223/" target="_blank" rel="noopener">
+          <span class="contact__label">LinkedIn</span>
+          <span class="contact__value">divya-prakash-241991223</span>
+        </a>
+        <a class="contact__item" href="https://github.com/Divyaprakash7" target="_blank" rel="noopener">
+          <span class="contact__label">GitHub</span>
+          <span class="contact__value">Divyaprakash7</span>
+        </a>
+      </div>
+
+      <p class="contact__location">📍 Dhenkanal, Odisha, India — 759023</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© <span id="year"></span> Divya Prakash Patra. Built with HTML, CSS &amp; JS.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
