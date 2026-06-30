@@ -4,11 +4,19 @@ document.getElementById('year').textContent = new Date().getFullYear();
 // Mobile menu toggle
 const burger = document.getElementById('burger');
 const mobileMenu = document.getElementById('mobileMenu');
+const mobileMenuClose = document.getElementById('mobileMenuClose');
 
 burger.addEventListener('click', () => {
   const isOpen = mobileMenu.classList.toggle('open');
   burger.setAttribute('aria-expanded', isOpen);
 });
+
+if (mobileMenuClose) {
+  mobileMenuClose.addEventListener('click', () => {
+    mobileMenu.classList.remove('open');
+    burger.setAttribute('aria-expanded', 'false');
+  });
+}
 
 mobileMenu.querySelectorAll('a').forEach(link => {
   link.addEventListener('click', () => {
