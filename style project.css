@@ -296,6 +296,14 @@ h3 {
   font-family: var(--mono); font-size: 0.82rem; color: var(--violet); margin-top: 4px;
   transition: gap .2s var(--ease);
 }
+.project-card--blue .project-card__link {
+  font-family: var(--mono); font-size: 0.82rem; color: var(--blue); margin-top: 4px;
+  transition: gap .2s var(--ease);
+}
+.project-card--amber .project-card__link {
+  font-family: var(--mono); font-size: 0.82rem; color: var(--amber); margin-top: 4px;
+  transition: gap .2s var(--ease);
+}
 .project-card__link:hover {
   text-decoration: underline;
 }
